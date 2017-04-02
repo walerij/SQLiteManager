@@ -6,6 +6,8 @@ import java.awt.*;
  */
 public class FormMain extends JFrame {
     private JPanel panel;
+    private JButton fileButton;
+    private JButton editButton;
 
     public FormMain() throws HeadlessException {
         this.getContentPane().add(panel);
